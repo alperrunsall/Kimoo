@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="5dp"
+    app:cardCornerRadius="50dp">
+    <RelativeLayout
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/normal_gorunum_arka"
+        android:id="@+id/arkaplan">
+        <RelativeLayout
+            android:visibility="invisible"
+            android:id="@+id/anaLay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/yazi_durumu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text=""
+                    android:textColor="@color/beyaz"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/goruldu"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/isaret1"
+                    android:visibility="gone" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:civ_border_color="@color/beyaz"
+                    app:civ_border_width="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@color/gri2" />
+
+                <TextView
+                    android:id="@+id/tarih"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_toRightOf="@id/profile_image"
+                    android:text=""
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/beyaz"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:visibility="invisible"
+                android:id="@+id/kilitRel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/rel">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/kilit" />
+            </RelativeLayout>
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rel"
+            android:layout_centerVertical="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kullanici_adi"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:text=""
+                android:textSize="10sp"
+                android:textStyle="italic"
+                android:textColor="@color/beyaz"/>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/mesaj"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/kullanici_adi"
+                android:layout_marginTop="3dp"
+                android:paddingHorizontal="5dp"
+                android:text="''''"
+                android:textAlignment="center"
+                android:textColor="@color/beyaz"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mesajsilindi"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/kullanici_adi"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"
+                android:text="BU MESAJ SİLİNMİŞTİR."
+                android:textStyle="italic"
+                android:textColor="@color/siyah"/>
+        </RelativeLayout>
+        </RelativeLayout>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:id="@+id/pbar"/>
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

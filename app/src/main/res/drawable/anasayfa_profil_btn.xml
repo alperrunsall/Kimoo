@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:color="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_anasayfa_profil" android:top="7dp" android:bottom="7dp" android:right="7dp" android:left="7dp"/></selector>

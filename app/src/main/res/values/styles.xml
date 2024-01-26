@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>w
+        <item name="android:fontFamily">@font/coolvetica</item>
+        <item name="spinnerStyle">@style/Spinner</item>
+        <item name="editTextStyle">@style/EditText</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="alertDialogTheme">@style/CustomAlertDialog</item>
+        <item name="selectableItemBackground">@style/SelectableItemBackground</item>
+        <item name="windowNoTitle">true</item>
+        <item name="homeAsUpIndicator">@drawable/ic_mesaj_geri2</item>
+        <item name="android:textColorSecondary">@color/preff</item>
+        <item name="android:titleTextColor" tools:targetApi="m">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/colorAccent</item>
+        <item name="actionBarTabTextStyle">@style/tabTextStyle</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+    </style>
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/tas1orta</item>
+    </style>
+    <style name="MyAlertDialog">
+        <item name="android:background"> @color/beyaz </item>
+    </style>
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/siyah</item>
+    </style>
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_arka</item>
+    </style>
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_dialog</item>
+    </style>
+    <style name="SelectableItemTheme">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <style name="CropTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/tas1orta</item>
+        <item name="colorPrimaryDark">@color/tas1orta</item>
+        <item name="android:windowBackground">@color/beyaz</item>
+    </style>
+    <style name="Spinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="boldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="tabTextStyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <string name="crop_image_menu_crop">Yükle</string>
+    <string name="crop_image_menu_flip_horizontally">Resmi yatay olarak tersine çevir</string>
+    <string name="crop_image_menu_flip_vertically">Resmi dikey olarak tersine çevir</string>
+</resources>

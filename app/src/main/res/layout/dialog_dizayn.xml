@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BAŞLIK"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textColor="@color/siyah"
+            android:id="@+id/dialog_baslik"/>
+        <RelativeLayout
+            android:id="@+id/evKisim"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/siyah"
+                android:layout_centerVertical="true"
+                android:text="Eve dönene kadar kimse beni göremesin"/>
+            <Switch
+                android:id="@+id/evSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bilgilendirme mesajları"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/gri3"
+            android:textAlignment="center"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/dialog_bilgi"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint=""
+            android:textColorHint="@color/gri3"
+            android:textColor="@color/siyah"
+            android:textAlignment="center"
+            android:background="@drawable/golge_onu2"
+            android:paddingVertical="5dp"
+            android:id="@+id/dialog_edittext" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:text="Seçenek1"
+            android:textColorHint="@color/gri3"
+            android:textColor="@color/siyah"
+            android:textAlignment="textStart"
+            android:id="@+id/dialog_secenek1"
+            tools:ignore="RtlCompat" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Seçenek1"
+            android:visibility="gone"
+            android:textColorHint="@color/gri3"
+            android:textColor="@color/siyah"
+            android:textAlignment="textStart"
+            android:id="@+id/dialog_secenek2"
+            tools:ignore="RtlCompat" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Seçenek1"
+            android:visibility="gone"
+            android:textColorHint="@color/gri3"
+            android:textColor="@color/siyah"
+            android:textAlignment="textStart"
+            android:id="@+id/dialog_secenek3"
+            tools:ignore="RtlCompat" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Seçenek1"
+            android:visibility="gone"
+            android:textColorHint="@color/gri3"
+            android:textColor="@color/siyah"
+            android:textAlignment="textStart"
+            android:id="@+id/dialog_secenek4"
+            tools:ignore="RtlCompat" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Seçenek1"
+            android:visibility="gone"
+            android:textColorHint="@color/gri3"
+            android:textColor="@color/siyah"
+            android:textAlignment="textStart"
+            android:id="@+id/dialog_secenek5"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+</LinearLayout>

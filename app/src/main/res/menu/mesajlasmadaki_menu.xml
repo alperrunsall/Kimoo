@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/profile_git_item"
+        android:title="Profile Git"/>
+
+    <item android:id="@+id/referansim_yap"
+        android:title="Referansım Yap"/>
+
+    <item android:id="@+id/kullanici_adi"
+        android:title="Kullanıcı Adı"/>
+
+    <item android:id="@+id/mesajlari_sil_item"
+        android:title="Tüm Mesajları Sil"/>
+
+    <item android:id="@+id/sikayet_et_item"
+        android:title="Şikayet Et"/>
+
+    <item android:id="@+id/engellet_item"
+        android:title="Engelle"/>
+
+</menu>

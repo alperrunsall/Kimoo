@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners/>
+    <gradient android:type="radial" android:gradientRadius="550"
+        android:startColor="@color/favori_arka" android:endColor="#D4D4D4" />
+</shape>

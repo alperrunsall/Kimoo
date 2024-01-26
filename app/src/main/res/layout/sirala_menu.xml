@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/arka_beyaz_yumusak">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIRALA"
+            android:id="@+id/sirala_yazi_baslik"
+            android:paddingTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sirala_menu"
+            android:background="@color/beyaz"
+            android:layout_centerVertical="true"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="5dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/sirala_yazi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alfabetik"
+                        android:textSize="10sp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorAccent"/>
+
+                    <Spinner
+                        android:id="@+id/sirala_alfa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/sirala_yazi1"
+                        android:textSize="10sp"
+                        android:paddingHorizontal="25dp"
+                        android:entries="@array/spinn_alfabe"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="-13dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yaşa Göre"
+                        android:id="@+id/sirala_yazi2"
+                        android:textSize="10sp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorAccent"/>
+                    <Spinner
+                        android:id="@+id/sirala_yas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/sirala_yazi2"
+                        android:entries="@array/spinn_yas"
+                        android:paddingHorizontal="25dp"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="-13dp" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Beğeni Sayısı"
+                        android:textSize="10sp"
+                        android:id="@+id/sirala_yazi3"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorAccent"/>
+                    <Spinner
+                        android:id="@+id/sirala_begeni"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/sirala_yazi3"
+                        android:paddingHorizontal="25dp"
+                        android:textSize="10sp"
+                        android:entries="@array/spinn_begeni"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="-13dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sirala_menu"
+            android:padding="15dp"
+            android:text="Sık Karşılaştıklarım En Önce"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone"
+            android:id="@+id/sirala_yazi4"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sirala_menu"
+            android:padding="15dp"
+            android:visibility="gone"
+            android:layout_toRightOf="@id/sirala_yazi4"
+            android:id="@+id/sirala_karsilasilanlar"/>
+        <Button
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sirala_menu"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/sirala_sirala_btn"
+            android:text="Sırala"
+            android:textColor="@color/colorPrimary"
+            android:padding="15dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

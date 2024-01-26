@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/background"
+    android:background="@drawable/gradient"
+    tools:context=".HazirlayanlarActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:elevation="0dp">
+                </androidx.appcompat.widget.Toolbar>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:text="Hazırlayanlar"
+                    android:textAlignment="center"
+                    android:textColor="@color/beyaz" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rootview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.6">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_marginBottom="-50dp"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"/>
+
+                <ImageView
+                    android:id="@+id/simge"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/view1"
+                    android:src="@drawable/logo_az_boyut2" />
+                <View
+                    android:id="@+id/view2"
+                    android:layout_below="@id/simge"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/yazi1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/view2"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:text="Kimoo, tamamen Alper Ünsal\ntarafından yapılmıştır"
+                    android:textAlignment="center"
+                    android:textColor="@color/siyah" />
+                <View
+                    android:id="@+id/view3"
+                    android:layout_below="@id/yazi1"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:id="@+id/yazi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:text="Özel teşekkürler;"
+                    android:textAlignment="center"
+                    android:textColor="@color/siyah"
+                    android:textSize="18sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/yazi2"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:visibility="gone"
+            android:id="@+id/ekle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="İsmimi Teşekkürler Kısmına Ekle"
+            android:textColor="@color/siyah"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="14sp"
+            android:background="@drawable/normal_beyaz_buton"
+            android:layout_margin="15dp"
+            android:layout_above="@+id/kutuphaneler"/>
+        <TextView
+            android:id="@+id/kutuphaneler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Libraries"
+            android:textSize="13sp"
+            android:textColor="@color/gri3"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+
+</LinearLayout>

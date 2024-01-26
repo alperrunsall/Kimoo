@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/ustKisim"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0">
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/sayi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/siyah"
+            android:textAlignment="center"
+            android:gravity="bottom"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+        <RelativeLayout
+            android:id="@+id/temel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/saat_istatistik_arka">
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.kimoo.android.extra.YatayTextView
+            android:id="@+id/saat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/siyah"
+            android:textSize="10sp"
+            tools:text="08:00 - 10:00" />
+    </RelativeLayout>
+
+</LinearLayout>

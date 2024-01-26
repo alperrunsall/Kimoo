@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/referansim_yap"
+        android:title="Referansım Yap"/>
+
+    <item android:id="@+id/kullanici_adi"
+        android:title="Kullanıcı Adı"/>
+
+    <item android:id="@+id/sikayet_et"
+        android:title="Şikayet Et"/>
+
+    <item android:id="@+id/engelle"
+        android:title="Engelle"/>
+</menu>

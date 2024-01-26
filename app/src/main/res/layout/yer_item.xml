@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/rel">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/detay_ok"
+            android:src="@drawable/detay_ok"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Espark AVM"
+            android:id="@+id/mekan"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/detay_ok"
+            android:textColor="@color/gri3"
+            android:paddingLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1009"
+            android:id="@+id/giden_sayisi"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="30dp"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/people"
+            android:layout_marginTop="5dp"
+            android:paddingRight="10dp"
+            android:layout_toLeftOf="@id/giden_sayisi"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detay_rel"
+            android:layout_below="@id/detay_ok">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resimler"
+                android:layout_marginTop="8dp"
+                android:layout_toLeftOf="@id/git">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_foto_ekle"
+                    android:layout_toLeftOf="@id/gelenArk2"
+                    android:layout_marginRight="-7dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/beyaz"
+                    android:id="@+id/gelenArk3" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_foto_ekle"
+                    android:layout_toLeftOf="@id/gelenArk1"
+                    android:layout_marginRight="-7dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/beyaz"
+                    android:id="@+id/gelenArk2"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_foto_ekle"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/beyaz"
+                    android:layout_toLeftOf="@id/ekstra_gelenler"
+                    android:id="@+id/gelenArk1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 Kişi daha."
+                    android:textSize="10sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/siyah"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ekstra_gelenler" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/isaret1"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/git"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/konum_rel">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/lokasyon"
+                    android:id="@+id/lokasyon_icon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eskişehir/Tepebaşı"
+                    android:textColor="@color/gri3"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/lokasyon_icon"
+                    android:id="@+id/lokasyon"
+                    android:textSize="10sp"
+                    android:textStyle="italic"
+                    android:paddingLeft="3dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_below="@id/rel"
+        android:background="@color/gri2"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryEski">#4D96DF</color>
+    <color name="colorPrimaryDark">#002854</color>
+    <color name="colorAccent">#323232</color>
+    <color name="colorAccent3">#FF6A6A</color>
+    <color name="colorAccent2">#84CC72</color>
+    <color name="favori_arka">#FF7676</color>
+    <color name="favori_arka2">#FF6262</color>
+    <color name="bulduklarim_arka">#54D138</color>
+    <color name="bulduklarim_arka2">#42D81E</color>
+    <color name="yenibul_arka">#71ccee</color>
+    <color name="digerRenk">#4E74C2</color>
+    <color name="beyaz">#FFFFFF</color>
+    <color name="siyah">#323232</color>
+    <color name="koyuYesil">#03302C</color>
+    <color name="golge">#BDBDBD</color>
+    <color name="sari">#DBBB11</color>
+    <color name="gri0">#F1F1F1</color>
+    <color name="gri">#EDEDED</color>
+    <color name="gri2">#D5D5D5</color>
+    <color name="gri3">#A5A5A5</color>
+    <color name="gri4">#B1B1B1</color>
+    <color name="gradient1">#5BC3D6</color>
+    <color name="gradient2">#218DF6</color>
+    <color name="mesaj_sag">#4BA0F3</color>
+    <color name="mesaj_sol">#4E74C2</color>
+    <color name="arka">#e3e7ec</color>
+    <color name="trans">#00FFE7E7</color>
+    <color name="transMavi">#22218DF6</color>
+    <color name="transGri">#0D000000</color>
+    <color name="transKoyuGri">#1A000000</color>
+    <color name="transBeyaz">#74FFFFFF</color>
+    <color name="transBeyaz2">#BEFFFFFF</color>
+    <color name="transKirmizi">#72B50707</color>
+    <color name="transSiyah">#A6000000</color>
+    <color name="trans_mavi">#A416567E</color>
+
+
+    <color name="tas1renk1">#5BC3D6</color>
+    <color name="tas1renk2">#218DF6</color>
+    <color name="tas1orta">#3da7e6</color>
+    <color name="tas1t1start">#53bcda</color>
+    <color name="tas1t1end">#4ab3e0</color>
+    <color name="tas1t2start">#319ced</color>
+    <color name="tas1t2end">#2894f2</color>
+    <color name="tas1koyu">#3081B1</color>
+
+    <color name="tas2renk1">#e18f35</color>
+    <color name="tas2renk2">#e18f35</color>
+    <color name="tas2orta">#e18f35</color>
+    <color name="tas2t1start">#e18f35</color>
+    <color name="tas2t1end">#e18f35</color>
+    <color name="tas2t2start">#e18f35</color>
+    <color name="tas2t2end">#e18f35</color>
+    <color name="tas2koyu">#B47026</color>
+
+    <color name="tas3renk1">#CE1C60</color>
+    <color name="tas3renk2">#CE1C60</color>
+    <color name="tas3orta">#CE1C60</color>
+    <color name="tas3t1start">#CE1C60</color>
+    <color name="tas3t1end">#CE1C60</color>
+    <color name="tas3t2start">#CE1C60</color>
+    <color name="tas3t2end">#CE1C60</color>
+    <color name="tas3koyu">#9F174B</color>
+
+    <color name="tas4renk1">#4BAC30</color>
+    <color name="tas4renk2">#4BAC30</color>
+    <color name="tas4orta">#4BAC30</color>
+    <color name="tas4t1start">#4BAC30</color>
+    <color name="tas4t1end">#4BAC30</color>
+    <color name="tas4t2start">#4BAC30</color>
+    <color name="tas4t2end">#4BAC30</color>
+    <color name="tas4koyu">#398A23</color>
+
+    <color name="tas5renk1">#A761FC</color>
+    <color name="tas5renk2">#7c90ef</color>
+    <color name="tas5orta">#9278f6</color>
+    <color name="tas5t1start">#a168fa</color>
+    <color name="tas5t1end">#9971f8</color>
+    <color name="tas5t2start">#8b80f3</color>
+    <color name="tas5t2end">#8289f1</color>
+    <color name="tas5koyu">#533d91</color>
+
+    <color name="tas6renk1">#02aab0</color>
+    <color name="tas6renk2">#00cdac</color>
+    <color name="tas6orta">#01bbae</color>
+    <color name="tas6t1start">#02afaf</color>
+    <color name="tas6t1end">#01b6af</color>
+    <color name="tas6t2start">#01c1ad</color>
+    <color name="tas6t2end">#00c8ad</color>
+    <color name="tas6koyu">#029B8F</color>
+
+    <color name="tas7renk1">#d66d75</color>
+    <color name="tas7renk2">#e29587</color>
+    <color name="tas7orta">#dc817e </color>
+    <color name="tas7t1start">#d87378</color>
+    <color name="tas7t1end">#da7a7b</color>
+    <color name="tas7t2start">#de8781</color>
+    <color name="tas7t2end">#e08f84</color>
+    <color name="tas7koyu">#B4635E</color>
+
+    <color name="tas8renk1">#614385</color>
+    <color name="tas8renk2">#516395</color>
+    <color name="tas8orta">#59538d</color>
+    <color name="tas8t1start">#5f4887</color>
+    <color name="tas8t1end">#5c4e8a</color>
+    <color name="tas8t2start">#57588f</color>
+    <color name="tas8t2end">#535e93</color>
+    <color name="tas8koyu">#464170</color>
+
+    <color name="tas9renk1">#fc61b9</color>
+    <color name="tas9renk2">#ef917c</color>
+    <color name="tas9orta">#f5799a</color>
+    <color name="tas9t1start">#fa68b0</color>
+    <color name="tas9t1end">#f871a5</color>
+    <color name="tas9t2start">#f38091</color>
+    <color name="tas9t2end">#f18a85</color>
+    <color name="tas9koyu">#C75976</color>
+
+    <color name="tas10renk1">#ff416c</color>
+    <color name="tas10renk2">#ff4b2b</color>
+    <color name="tas10orta">#ff464c</color>
+    <color name="tas10t1start">#ff4263</color>
+    <color name="tas10t1end">#ff4456</color>
+    <color name="tas10t2start">#ff4841</color>
+    <color name="tas10t2end">#ff4a34</color>
+    <color name="tas10koyu">#D1393E</color>
+
+    <color name="tas11renk1">#833ab4</color>
+    <color name="tas11renk2">#fcb045</color>
+    <color name="tas11orta">#fd1d1d</color>
+    <color name="tas11t1start">#a63288</color>
+    <color name="tas11t1end">#d6264e</color>
+    <color name="tas11t2start">#fd4c2a</color>
+    <color name="tas11t2end">#fc8639</color>
+    <color name="tas11koyu">#A52424</color>
+
+    <color name="tas12renk1">#40E0D0</color>
+    <color name="tas12renk2">#FF0080</color>
+    <color name="tas12orta">#FF8C00</color>
+    <color name="tas12t1start">#77c894</color>
+    <color name="tas12t1end">#c1a743</color>
+    <color name="tas12t2start">#ff6029</color>
+    <color name="tas12t2end">#ff285b</color>
+    <color name="tas12koyu">#AC6001</color>
+
+    <color name="tas13renk1">#FEAC5E</color>
+    <color name="tas13renk2">#4bc0c8</color>
+    <color name="tas13orta">#C779D0</color>
+    <color name="tas13t1start">#ee9d7f</color>
+    <color name="tas13t1end">#d98aab</color>
+    <color name="tas13t2start">#9f90cd</color>
+    <color name="tas13t2end">#6facca</color>
+    <color name="tas13koyu">#8A4F92</color>
+
+    <color name="tas14renk1">#2a6abb</color>
+    <color name="tas14renk2">#fd2071</color>
+    <color name="tas14orta">#d264f4</color>
+    <color name="tas14t1start">#5b68cb</color>
+    <color name="tas14t1end">#9c66e2</color>
+    <color name="tas14t2start">#e04eca</color>
+    <color name="tas14t2end">#f13497</color>
+    <color name="tas14koyu">#A54AC2</color>
+
+    <color name="tas15renk1">#142489</color>
+    <color name="tas15renk2">#142489</color>
+    <color name="tas15orta">#ff2edd</color>
+    <color name="tas15t1start">#5827a1</color>
+    <color name="tas15t1end">#b32bc2</color>
+    <color name="tas15t2start">#b52bc2</color>
+    <color name="tas15t2end">#5727a1</color>
+    <color name="tas15koyu">#BB24A1</color>
+
+    <color name="tasozel1renk1">#77a1d3</color>
+    <color name="tasozel1renk2">#e684ae</color>
+    <color name="tasozel1orta">#79cbca</color>
+    <color name="tasozel1t1start">#78add0</color>
+    <color name="tasozel1t1end">#78becd</color>
+    <color name="tasozel1t2start">#9cb4c1</color>
+    <color name="tasozel1t2end">#c799b6</color>
+    <color name="tasozel1koyu">#6586AE</color>
+
+    <color name="tasozel2renk1">#dd3e54</color>
+    <color name="tasozel2renk2">#6be585</color>
+    <color name="tasozel2orta">#a4926d</color>
+    <color name="tasozel2t1start">#cd565b</color>
+    <color name="tasozel2t1end">#b77664</color>
+    <color name="tasozel2t2start">#92ab74</color>
+    <color name="tasozel2t2end">#7ccc7e</color>
+    <color name="tasozel2koyu">#6586AE</color>
+
+    <color name="tasozel3renk1">#333333</color>
+    <color name="tasozel3renk2">#dd1818</color>
+    <color name="tasozel3orta">#882525</color>
+    <color name="tasozel3t1start">#4b2f2f</color>
+    <color name="tasozel3t1end">#6c2a2a</color>
+    <color name="tasozel3t2start">#a22121</color>
+    <color name="tasozel3t2end">#c41c1c</color>
+    <color name="tasozel3koyu">#6586AE</color>
+
+    <color name="tasozel4renk1">#0f0c29</color>
+    <color name="tasozel4renk2">#24243e</color>
+    <color name="tasozel4orta">#302b63</color>
+    <color name="tasozel4t1start">#19153a</color>
+    <color name="tasozel4t1end">#252150</color>
+    <color name="tasozel4t2start">#2c2957</color>
+    <color name="tasozel4t2end">#272649</color>
+    <color name="tasozel4koyu">#6586AE</color>
+
+    <color name="tasozel5renk1">#a770ef</color>
+    <color name="tasozel5renk2">#FDB99B</color>
+    <color name="tasozel5orta">#cf8bf3</color>
+    <color name="tasozel5t1start">#b378f0</color>
+    <color name="tasozel5t1end">#c282f2</color>
+    <color name="tasozel5t2start">#de9ad7</color>
+    <color name="tasozel5t2end">#f0acb4</color>
+    <color name="tasozel5koyu">#6586AE</color>
+
+    <color name="tasozel6renk1">#0f0c29</color>
+    <color name="tasozel6renk2">#000046</color>
+    <color name="tasozel6orta">#0e5b93</color>
+    <color name="tasozel6t1start">#041a5c</color>
+    <color name="tasozel6t1end">#093d7a</color>
+    <color name="tasozel6t2start">#0a3e7a</color>
+    <color name="tasozel6t2end">#041a5c</color>
+    <color name="tasozel6koyu">#6586AE</color>
+
+    <color name="tasprem1renk1">#009fff</color>
+    <color name="tasprem1renk2">#ec2F4B</color>
+    <color name="tasprem1orta">#7667a5</color>
+    <color name="tasprem1t1start">#228fe5</color>
+    <color name="tasprem1t1end">#4f7ac3</color>
+    <color name="tasprem1t2start">#9a5689</color>
+    <color name="tasprem1t2end">#c93f65</color>
+    <color name="tasprem1koyu">#6586AE</color>
+
+    <color name="tasprem2renk1">#c94b4b</color>
+    <color name="tasprem2renk2">#4b134f</color>
+    <color name="tasprem2orta">#8a2f4d</color>
+    <color name="tasprem2t1start">#b7434c</color>
+    <color name="tasprem2t1end">#9f384c</color>
+    <color name="tasprem2t2start">#76264e</color>
+    <color name="tasprem2t2end">#5d1b4e</color>
+    <color name="tasprem2koyu">#6586AE</color>
+
+    <color name="tasprem3renk1">#e44d26</color>
+    <color name="tasprem3renk2">#F16529</color>
+    <color name="tasprem3orta">#ee5f29</color>
+    <color name="tasprem3t1start">#e65026</color>
+    <color name="tasprem3t1end">#e85527</color>
+    <color name="tasprem3t2start">#ec5d28</color>
+    <color name="tasprem3t2end">#ef6129</color>
+    <color name="tasprem3koyu">#6586AE</color>
+
+    <color name="tasprem4renk1">#3a6186</color>
+    <color name="tasprem4renk2">#89253e</color>
+    <color name="tasprem4orta">#614362</color>
+    <color name="tasprem4t1start">#45597c</color>
+    <color name="tasprem4t1end">#544d6e</color>
+    <color name="tasprem4t2start">#6e3a57</color>
+    <color name="tasprem4t2end">#7e2e48</color>
+    <color name="tasprem4koyu">#6586AE</color>
+
+    <color name="tasprem5renk1">#ef32d9</color>
+    <color name="tasprem5renk2">#89fffd</color>
+    <color name="tasprem5orta">#bc98eb</color>
+    <color name="tasprem5t1start">#e14fde</color>
+    <color name="tasprem5t1end">#cd76e5</color>
+    <color name="tasprem5t2start">#acb8f0</color>
+    <color name="tasprem5t2end">#98e1f8</color>
+    <color name="tasprem5koyu">#6586AE</color>
+
+
+
+</resources>

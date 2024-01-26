@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="alt_yas_siniri">13</integer>
+    <integer name="ust_yas_siniri">30</integer>
+</resources>

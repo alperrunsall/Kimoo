@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_marginHorizontal="10dp"
+    android:background="@drawable/dialog_arkasi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/baslik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bulunabilme Süreni Belirle"
+            android:textColor="@color/sari"
+            android:autoSizeMaxTextSize="18sp"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            android:gravity="center"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/buton1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColorHint="@color/gri3"
+        android:textColor="@color/siyah"
+        android:textAlignment="textStart"
+        android:paddingHorizontal="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="5 dakika"/>
+    <Button
+        android:id="@+id/buton2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColorHint="@color/gri3"
+        android:textColor="@color/siyah"
+        android:textAlignment="textStart"
+        android:paddingHorizontal="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="15 dakika"/>
+    <Button
+        android:id="@+id/buton3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColorHint="@color/gri3"
+        android:textColor="@color/siyah"
+        android:textAlignment="textStart"
+        android:paddingHorizontal="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="30 dakika"/>
+    <Button
+        android:id="@+id/buton4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColorHint="@color/gri3"
+        android:textColor="@color/siyah"
+        android:textAlignment="textStart"
+        android:paddingHorizontal="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="1 saat"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Eve dönene kadar kimse beni görmesin"
+            android:textColor="@color/siyah"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"/>
+        <Switch
+            android:id="@+id/switch_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/aciklama"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:paddingHorizontal="20dp"
+        android:text=""
+        android:textColor="@color/transSiyah"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textAlignment="textStart"
+        tools:ignore="RtlCompat"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+
+</LinearLayout>

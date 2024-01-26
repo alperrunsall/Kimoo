@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Kimoo</string>
+
+    <string name="premium_ol">Daha fazla özellik ve kısıtsız bir kullanım için <b>PREMIUM</b> olun!</string>
+    <string name="kullanici_sozlesme_taahhut">Devam ederek<b> Kullanıcı Şartlarını</b> ve <b>Gizlilik Sözleşmesini</b> kabul etmiş sayılırsınız.</string>
+    <string name="mesaj_kurallari">Mesajlaşırken <b>Topluluk Kurallarına</b> uymanız gerektiğini unutmayın.</string>
+
+    <string-array name="spinn_bulduklarim">
+        <item>Karşılaşma Sayısı</item>
+        <item>Yaş</item>
+        <item>Cinsiyet</item>
+        <item>Toplam Beğenilme Sayısı</item>
+    </string-array>
+    <string-array name="spinn_filtre_cinsiyet">
+        <item>Herkes</item>
+        <item>Erkek</item>
+        <item>Kadın</item>
+    </string-array>
+    <string-array name="spinn_begenenler">
+        <item>Beğendiği Sayı</item>
+        <item>Yaş</item>
+        <item>Cinsiyet</item>
+    </string-array>
+    <string-array name="spinn_favori">
+        <item>Yaş</item>
+        <item>Cinsiyet</item>
+        <item>Toplam Beğenilme Sayısı</item>
+    </string-array>
+    <string-array name="spinn_alfabe">
+        <item>Seçim Yok</item>
+        <item>A\'dan Z\'ye</item>
+        <item>Z\'den A\'ya</item>
+    </string-array>
+    <string-array name="spinn_yas">
+        <item>Seçim Yok</item>
+        <item>Önce En Küçük</item>
+        <item>Önce En Büyük</item>
+    </string-array>
+    <string-array name="spinn_begeni">
+        <item>Seçim Yok</item>
+        <item>Önce En Az Beğenilmiş</item>
+        <item>Önce En Çok Beğenilmiş</item>
+    </string-array>
+    <string-array name="spinn_begenme">
+        <item>Seçim Yok</item>
+        <item>Önce En Az Beğenmiş</item>
+        <item>Önce En Çok Beğenmiş</item>
+    </string-array>
+
+    <integer name="sayfa_gecis_hizi">200</integer>
+
+    <string name="pp_sebep1">fotoğrafta sizin olmadığınız</string>
+    <string name="pp_sebep2">reklam</string>
+    <string name="pp_sebep3">cinsel içerik</string>
+    <string name="pp_sebep4">yüzünüzün görünmemesi ya da fotoğrafta sizin olmamanız </string>
+    <string name="uyari_pp_bas">Merhaba sayın kullanıcımız, son güncellemiş olduğunuz profil fotoğrafı, </string>
+    <string name="uyari_pp_son">tespit edildiğinden kaldırılmıştır. Lütfen topluluk kurallarımıza uyun, kurallara uymazsanız hesabınızı kapatmak zorunda kalabiliriz. Keyifli günler dileriz :)</string>
+
+    <string-array name="sehirler">
+        <item></item><item>Adana</item><item>Adıyaman</item><item>Afyon</item><item>Ağrı</item><item>Amasya</item><item>Ankara</item><item>Antalya</item><item>Artvin</item><item>Aydın</item>
+        <item>Balıkesir</item><item>Bilecik</item><item>Bingöl</item><item>Bitlis</item><item>Bolu</item><item>Burdur</item><item>Bursa</item><item>Çanakkale</item><item>Çankırı</item>
+        <item>Çorum</item><item>Denizli</item><item>Diyarbakır</item><item>Edirne</item><item>Elazığ</item><item>Erzincan</item><item>Erzurum</item><item>Eskişehir</item><item>Gaziantep</item>
+        <item>Giresun</item><item>Gümüşhane</item><item>Hakkari</item><item>Hatay</item><item>Isparta</item><item>İçel</item><item>İstanbul</item><item>İzmir</item><item>Kars</item>
+        <item>Kastamonu</item><item>Kayseri</item><item>Kırklareli</item><item>Kırşehir</item><item>Kocaeli</item><item>Konya</item><item>Kütahya</item><item>Malatya</item><item>Manisa</item>
+        <item>Kahramanmaraş</item><item>Mardin</item><item>Muğla</item><item>Muş</item><item>Nevşehir</item><item>Niğde</item><item>Ordu</item><item>Rize</item><item>Sakarya</item><item>Samsun</item>
+        <item>Siirt</item><item>Sinop</item><item>Sivas</item><item>Tekirdağ</item><item>Tokat</item><item>Trabzon</item><item>Tunceli</item><item>Şanlıurfa</item><item>Uşak</item><item>Van</item><item>Yozgat</item>
+        <item>Zonguldak</item><item>Aksaray</item><item>Bayburt</item><item>Karaman</item><item>Kırıkkale</item><item>Batman</item><item>Şırnak</item><item>Bartın</item><item>Ardahan</item><item>Iğdır</item>
+        <item>Yalova</item><item>Karabük</item><item>Kilis</item><item>Osmaniye</item><item>Düzce</item>
+    </string-array>
+
+    <string name="google_play_lisans">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgRqtenTCrA9A4fmpFL6K1SOUUxv5xXa6DKQe2VEqm5QKUIm3dPslrwhiZoFJXGUqO9dvSHamVqnb9qhnTtCMPLf3wJAtkxZmK4MMhSEAXz5Le0tywpw/BlTAcLgI+QFOsiMvEuTs4QTMMYd8KxAUEKU8e8EjYFPdyUnRa8lRjbaZXzi1+KoWQ9dv2L1Z9QQ19kKEY85YZRKD5PvS/lm6XHmJXPHr9sQWLGKo6d/NYQ+cvtQCOXWl4KFNAvlSW35BtuG139eh1ZKNTZoOKBz/lGyeQHJSOnQpAnhLZppxxgF0/cn34nb3FzWglpLNTSYDa0g1y0rQPZBpPrYriLJEkwIDAQAB</string>
+
+    <string name="aydinlatma_metni">Uygulamaya kayıt olmadan önce lütfen aşağıdaki bilgilendirme metnini okuyunuz.\n\nKimoo, kullanıcılarının fiziksel bir ortamda karşılaştıklarında, birbirlerine verdikleri izinler sonucunda mesajlaşabilmelerini sağlayan bir mobil uygulamadır.\n\n- Kimoo, insanların birbirlerini bulabilmesi için bluetooth özelliğini kullanır ancak bu özelliği kullanırken sadece bluetooth isminizi değiştirir. Herhangi bir veri aktarımı, eşleşme vb. işlem söz konusu değildir. \n\n- Bluetooth özelliğini kullanabilmek için sizden bir seferlik konum izni istenir fakat bu sadece bluetooth kullanmak için gereklidir, konum özelliğini açmanıza gerek kalmaz. \n\n- Kimoo"'"da bulunabilir olmanızı sağlamanız için Kimoo kullanıcısı olmak, bluetooth"'"u açmak, uygulama içerisinden bulunabilirlik özelliliğini açmak gerekmektedir aksi takdirde bulunamazsınız. \n\n- Kimoo"'"da diğer insanları bulmak için bu kişilerin uygulamaya kayıtlı olması, bluetooth"'"u açmış olması, uygulama içerisinden bulunabilirlik özelliliğini açmış olması gerekmektedir. Sizin ise bluetooth"'"u açmanız ve uygulama içerisinden bul özelliğini kullanmanız gerekir. \n\n- Kullanıcıların birbirlerini bulması için aynı ortamda (Bluetooth"'"un özelliklerine göre ortalama 10-100 metre içerisinde) fiziksel olarak bulunması gerektiğinden, gizlilik veya güvenliğiniz için endişelendiğiniz bir durumla karşılaşırsanız uygulama içerisinde engel/şikayet gibi seçenekleri değerlendirmeli ya da bulunduğunuz ortamda güvenlik/polis gibi kişilerden yardım istemelisiniz. (Bulduğunuz insanları tekrar bulamazsınız.) \n\n- Uygulama içerisinde kayıt olan kişileri ve gelen şikayetleri sürekli kontrol ediyor, uygulama içerisinde güvenliğinizi sağlıyor olacağız. \n\n- Uygulamaya şimdilik yalnızca 30 yaş ve altı kişiler kayıt olabilir ve sadece kendi yaş gruplarıyla iletişime geçebilirler. Bu yaş aralığının dışında olduğu tespit edilen kişiler uygulamadan tamamen uzaklaştırılır. \n- Kimoo yanlızca gençlerin sosyalleşmesi için yapılmış olup hiçbir cinsel aktiviteye/tacize zemin hazırlamaz.\n\n- Sizi bulan kişiler profilinizi beğenebilir ve size mesaj atabilir ancak gelen mesajlar kilitli olarak gelir ve kilidini açmadığınız takdirde mesajın içeriğini görmezsiniz. Mesajlarınızı yalnıca metin olarak gönderebilir ve alabilirsiniz. Fotoğraf, ses kaydı vb. içerikler kullanılmaz. Profil fotoğrafınız hariç diğer fotoğraflarınız, ad, yaş gibi diğer verilerinizi kimlerin görebileceğini ayarlayabilirsiniz.\n\n- Kayıttan önce kullanıcı şartlarını ve gizlilik politikasını okumayı unutmayın.
+ </string>
+</resources>

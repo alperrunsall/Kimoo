@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/beyaz"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/coolvetica"
+        android:autoSizeMaxTextSize="17sp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/arka_dark"
+        android:padding="10dp"
+        android:id="@+id/ne_zaman_atilmis"
+        android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ne_zaman_atilmis"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:focusable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:id="@+id/rel1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mesaj_sag"
+                    android:text=""
+                    android:fontFamily="@font/coolvetica"
+                    android:autoSizeMaxTextSize="17sp"
+                    android:autoSizeTextType="uniform"
+                    android:layout_alignParentEnd="true"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="13dp"
+                    android:id="@+id/mesaj_goster"
+                    android:textSize="18sp"
+                    android:textColor="@color/beyaz"
+                    android:padding="10dp"
+                    android:layout_alignParentRight="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mesajinsaati"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/coolvetica"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:visibility="gone"
+                    android:layout_below="@id/mesaj_goster"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:paddingHorizontal="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/arka_dark"
+                    android:text="Bu mesaj silinmiştir."
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/bu_mesaj_silindi"
+                    android:fontFamily="@font/coolvetica"
+                    android:autoSizeMaxTextSize="17sp"
+                    android:autoSizeTextType="uniform"
+                    android:layout_below="@id/mesajinsaati"
+                    android:visibility="gone"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/beyaz"
+                    android:padding="10dp"
+                    android:layout_alignParentRight="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/goruldu"
+                    android:text="Görüldü"
+                    android:fontFamily="@font/coolvetica"
+                    android:autoSizeMaxTextSize="17sp"
+                    android:autoSizeTextType="uniform"
+                    android:visibility="gone"
+                    android:textColor="#627D97"
+                    android:layout_below="@id/bu_mesaj_silindi"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
